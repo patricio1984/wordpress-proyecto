@@ -1,0 +1,64 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    padding: 22px 18px;
+    font-size: 18px;
+    
+}
+
+#wp-name, #site-description, #wp-title {
+    font-family: 'Volkhov', serif;
+}
+
+#header-sidebar .widget, #sidebar .widget {
+    list-style-type: none;
+}
+
+.custom-logo {
+    max-width: 300px;
+    height: auto;
+}
+
+#primary-menu {
+    background-color: #595959;
+    margin-bottom: 22px;
+}
+
+#primary-menu .main-nav ul, #primary-menu .main-nav li {
+    margin: 0;
+    padding: 0;
+}
+
+#primary-menu .main-nav li {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+}
+
+#primary-menu .main-nav li a, #primary-menu .main-nav ul ul li a {
+    display: block;
+    padding: 6px 12px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+#primary-menu .main-nav li a:hover, #primary-menu .main-nav .current-menu-item a, #primary-menu .main-nav .current-page-item a, #primary-menu .main-nav a:hover {
+    background-color: #3c8dc1;
+}
+
+#primary-menu .main-nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    z-index: 15000;
+}
+
+#primary-menu .main-nav ul ul li {
+    border-top: 2px solid #cacaca;
+}
+
+#primary-menu .main-nav ul li:hover > ul {
+    white-space: nowrap;
+    display: block;
+    background-color: #3c8dc1;
+}
